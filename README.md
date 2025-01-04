@@ -100,12 +100,12 @@ pip install transformers datasets torch torchvision accelerate bitsandbytes -q
             loss = output.loss/gradient_accumulation_steps
             loss.backward()
             if i % gradient_accumulation_steps == 0:
-            optimizer.step()
-            lr_sheduler.step()
-            optimizer.zero_grad()
-            train_loss += loss.item()
-            average_training_loss = train_loss / len(train_loader)
-            print(f"Average training loss: {average_training_loss}")
+               optimizer.step()
+               lr_sheduler.step()
+               optimizer.zero_grad()
+               train_loss += loss.item()
+               average_training_loss = train_loss / len(train_loader)
+               print(f"Average training loss: {average_training_loss}")
      ```
 
 ## Usage
