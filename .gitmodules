@@ -1,0 +1,3 @@
+[submodule "phi-2-FineTuning"]
+	path = phi-2-FineTuning
+	url = https://github.com/dinesh1618/phi-2-FineTuning.git
