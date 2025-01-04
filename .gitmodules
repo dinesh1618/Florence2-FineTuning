@@ -1,3 +1,6 @@
 [submodule "phi-2-FineTuning"]
 	path = phi-2-FineTuning
 	url = https://github.com/dinesh1618/phi-2-FineTuning.git
+[submodule "FineTune_small_lang_model"]
+	path = FineTune_small_lang_model
+	url = https://github.com/dinesh1618/FineTune_small_lang_model.git
